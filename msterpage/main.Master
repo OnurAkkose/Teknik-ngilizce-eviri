@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="msterpage.main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+ 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+  
+    <link href="başlık.css" rel="stylesheet" />
+ 
+    <link href="/style.css" rel="stylesheet" />
+  
+    <style type="text/css">
+        .auto-style1 {
+            color: #000000;
+        }
+    </style>
+  
+</head>
+
+    
+      
+   
+            <header style="height:201px; margin-top:0 auto; background-color:white; width:100%; ">
+
+                <div class="logo">
+
+            <a href="anasayfa.aspx"> <img src="/RESİM/11.jpeg"  style="width:200px; height: 201px;"</a> </div >
+
+                </div>
+
+                <nav style="width:1311px;">
+
+                   <div class="topnav">
+  <a class="active" href="anasayfa.aspx">Ana Sayfa</a>
+  <a href="HAKKIMIZDA.aspx">Hakkımızda</a>
+                       
+  <a href="İLETİŞİM.aspx">İletişim</a>
+ <a href="KAYITOL.aspx">Kayıt Ol</a>  
+           
+</div>
+
+    
+
+
+                </nav>
+              
+
+                <div class="başlık" style="color: #FFFFFF">
+
+                    <span class="auto-style1"><strong>COMPUTER DICTIONARY</strong></span> 
+
+            </div>
+         </header>
+   
+   
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+
+    
+    
+    <form id="form1" runat="server">
+       
+          
+
+
+
+
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+       
+    
+    
+    </form>
+</body>
+</html>

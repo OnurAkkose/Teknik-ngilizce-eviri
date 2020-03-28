@@ -1,0 +1,115 @@
+﻿body {
+    background-color: #d3cdcd;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+    a:hover {
+        color: #999;
+    }
+
+* {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    margin: 0px 0 0 0px;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 300px;
+    margin-top: 5px;
+    background-color: #ee5326;
+    margin: 0 auto;
+}
+
+header {
+    float: left;
+    width: 100%;
+    height: 45px;
+    background-color: #ffd800;
+    margin-bottom: 1px;
+}
+
+    header .logo {
+        float: left;
+        width: 200px;
+        height: 200px;
+        border-right: 5px solid #ffffff;
+    }
+
+    header nav {
+        float: left;
+        width: 100%;
+        height: 45px;
+        background-color: #ffd800;
+        line-height: 45px;
+    }
+
+        header nav ul {
+            list-style: none;
+    width: 1066px;
+}
+
+            header nav ul li {
+                float: left;
+                margin-left: 15px;
+                color: #555;
+            }
+
+
+
+
+
+
+
+.banner {
+    float: left;
+    margin-top: 200px;
+    width: 960px;
+    height: 360px;
+    background-color: white;
+    line-height: 360px;
+    text-align: center;
+    font-size: 50px;
+}
+
+header .başlık {
+    margin-left: 220px;
+    margin-top: 100px;
+    width: 800px;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.giriş {
+    margin-left: 100px;
+    margin-top: 450px;
+    padding-top: 350px;
+    width: 120px;
+    height: 336px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.çevir {
+    margin-left: 203px;
+    margin-top: -500px;
+    width: 1300px;
+    height: 700px;
+    text-align: left;
+    font-size: 25px;
+}
+    header .kullanıcı {
+    float: left;
+    width: 282px;
+    height: 45px;
+    background-color: #b6ff00;
+    line-height: 45px;
+}
